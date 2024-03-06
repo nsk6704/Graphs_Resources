@@ -1,7 +1,7 @@
 const quizData = [
   {
       question:
-          "What is the time complexity of Dijkstra's algorithm? (Matrix Representation) ",
+          "What is the time complexity of Dijkstra's algorithm?(Matrix Representation)",
           a: "O(V log V)",
           b: "O(V^2)",
           c: "O(E + V log V)",
@@ -61,6 +61,82 @@ const quizData = [
     d: "A cycle in the graph where all edges have zero weight",
     correct: "a",
   },
+
+  {
+    question:
+        "In graph theory, what is a node also known as?",
+    a: "Vertex",
+    b: "Edge",
+    c: "Graph",
+    d: "Cycle",
+    correct: "a",
+},
+{
+    question:
+        "What is the maximum number of edges in a complete graph with n vertices?",
+    a: "n",
+    b: "n - 1",
+    c: "n^2",
+    d: "n(n-1)/2",
+    correct: "d",
+},
+{
+    question:
+        "A graph with all edges having the same weight is called:",
+    a: "Weighted graph",
+    b: "Connected graph",
+    c: "Complete graph",
+    d: "Uniform graph",
+    correct: "d",
+},
+{
+  question: "What is the term used to describe a graph with no cycles?",
+  a: "Acyclic graph",
+  b: "Bipartite graph",
+  c: "Directed graph",
+  d: "Tree",
+  correct: "a",
+},
+{
+  question: "What is the degree of a vertex in a graph?",
+  a: "The number of edges connected to the vertex",
+  b: "The weight of the edges connected to the vertex",
+  c: "The number of nodes connected to the vertex",
+  d: "The length of the shortest path from the vertex",
+  correct: "a",
+},
+{
+  question: "What is the minimum number of edges in a connected graph with n vertices?",
+  a: "n - 1",
+  b: "n",
+  c: "1",
+  d: "0",
+  correct: "a",
+},
+{
+  question: "What is the name of a graph in which each edge is associated with a direction?",
+  a: "Undirected graph",
+  b: "Directed graph",
+  c: "Connected graph",
+  d: "Cyclic graph",
+  correct: "b",
+},
+{
+  question: "What is the term for a graph in which all vertices are connected by exactly one edge?",
+  a: "Complete graph",
+  b: "Simple graph",
+  c: "Path graph",
+  d: "Cycle graph",
+  correct: "c",
+},
+{
+  question: "What is the maximum number of edges in a tree with n vertices?",
+  a: "n - 1",
+  b: "n",
+  c: "n + 1",
+  d: "2n - 1",
+  correct: "a",
+},
 ];
 
 const quiz = document.querySelector(".quiz-header");
