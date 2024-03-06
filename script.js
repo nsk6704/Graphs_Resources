@@ -1,12 +1,12 @@
 const quizData = [
   {
       question:
-          "What is the time complexity of Dijkstra's algorithm? abcd",
+          "What is the time complexity of Dijkstra's algorithm? (Matrix Representation) ",
           a: "O(V log V)",
           b: "O(V^2)",
           c: "O(E + V log V)",
           d: "O(E + V)",
-          correct: "c",
+          correct: "b",
   },
   {
       question:
